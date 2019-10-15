@@ -1,0 +1,25 @@
+.Button {
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.Close {
+    color: red;
+}
+.primary {
+    color: #5C9210;
+    border: 1px solid #5C9210;
+}
+
+.danger {
+    color: #944317;
+    border: 1px solid #944317;
+}
