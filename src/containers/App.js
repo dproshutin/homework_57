@@ -70,6 +70,7 @@ class App extends Component {
                     nam nesciunt, nobis porro quia? Ad commodi consequuntur earum error et in quae quam
                     quia quis sequi sint vitae voluptates, voluptatibus!</p>
                 <Alert
+                    // clickDismissable={true}
                     show={this.state.alertShow}
                     type="warning"
                     dismiss={this.alertClosed}

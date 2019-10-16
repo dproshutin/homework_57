@@ -14,6 +14,7 @@
 .Close {
     color: red;
 }
+
 .primary {
     color: #5C9210;
     border: 1px solid #5C9210;
@@ -22,4 +23,8 @@
 .danger {
     color: #944317;
     border: 1px solid #944317;
+}
+
+.alertClose {
+    color: #6f5b5b;
 }

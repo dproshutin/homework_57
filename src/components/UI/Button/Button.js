@@ -3,6 +3,7 @@ import './Button.css';
 
 const Button = props => {
     return (
+        (props.clickDismissable) ? null :
         <button
             onClick={props.clicked}
             className={["Button", props.btnType].join(" ")}
