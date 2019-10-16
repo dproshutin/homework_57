@@ -4,14 +4,12 @@ import Button from "../Button/Button";
 
 const Alert = props => {
     return (
-        <div className={props.type}>
-            (props.dismissed !== undefined) ?
-            (
+        <div className={["Alert", props.type].join(" ")}>
+            {(props.dismiss !== undefined) ?
                 <Button
                     className="Button"
                 >X
-                </Button>
-            ) : null
+                </Button> : null}
             {props.children}
         </div>
     );

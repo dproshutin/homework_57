@@ -1,7 +1,15 @@
+.Alert {
+    width: 50%;
+    margin: 10px auto;
+    padding: 20px 0px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
 .warning {
-    background: yellow;
+    background: #fff69b;
 }
 
 .success {
-    background: blue;
+    background: #a1c8e9;
 }
