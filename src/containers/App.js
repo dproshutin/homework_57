@@ -6,7 +6,8 @@ import Alert from "../components/UI/Alert/Alert";
 class App extends Component {
 
     state = {
-        modalShow: false
+        modalShow: false,
+        alertShow: true
     };
 
     showModalHandler = () => {
@@ -20,6 +21,11 @@ class App extends Component {
     closed = () => {
         this.setState({modalShow: false});
     };
+
+    alertClosed = () => {
+        this.setState({alertShow: false});
+    };
+
     render() {
 
         return (
@@ -64,12 +70,12 @@ class App extends Component {
                     nam nesciunt, nobis porro quia? Ad commodi consequuntur earum error et in quae quam
                     quia quis sequi sint vitae voluptates, voluptatibus!</p>
                 <Alert
+                    show={this.state.alertShow}
                     type="warning"
-                    dismiss={this.closeAlert}
+                    dismiss={this.alertClosed}
                 >
                     This is a warning type alert
                 </Alert>
-                <Alert type="success">This is a success type alert</Alert>
             </div>
 
         );

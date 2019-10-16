@@ -5,6 +5,7 @@
     display: flex;
     justify-content: space-between;
     border-radius: 5px;
+    color: #6f5b5b;
 }
 .warning {
     background: #fff69b;
@@ -12,4 +13,12 @@
 
 .success {
     background: #a1c8e9;
+}
+
+.danger {
+    background: #f0787e;
+}
+
+.primary {
+    background: #b6d051;
 }
