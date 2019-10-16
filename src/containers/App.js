@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import '../containers/App.css';
 import Modal from '../components/UI/Modal/Modal';
+import Alert from "../components/UI/Alert/Alert";
 
 class App extends Component {
 
@@ -62,6 +63,13 @@ class App extends Component {
                     saepe, sed voluptatem voluptatibus. Animi aperiam consequatur ipsam ipsum mollitia
                     nam nesciunt, nobis porro quia? Ad commodi consequuntur earum error et in quae quam
                     quia quis sequi sint vitae voluptates, voluptatibus!</p>
+                <Alert
+                    type="warning"
+                    dismiss={this.closeAlert}
+                >
+                    This is a warning type alert
+                </Alert>
+                <Alert type="success">This is a success type alert</Alert>
             </div>
 
         );
